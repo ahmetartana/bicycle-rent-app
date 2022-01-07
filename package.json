@@ -1,0 +1,56 @@
+{
+	"name": "bicyclerentapp",
+	"version": "0.1.0",
+	"private": true,
+	"workspaces": [
+		"src/components/*"
+	],
+	"dependencies": {
+		"@material-ui/core": "^4.11.0",
+		"@material-ui/icons": "^4.9.1",
+		"@material-ui/lab": "4.0.0-alpha.58",
+		"@material-ui/data-grid": "^4.0.0-alpha.32",
+		"@types/leaflet": "^1.7.2",
+		"@types/node": "^15.12.4",
+		"@types/react": "^17.0.11",
+		"@types/react-dom": "^17.0.0",
+		"@types/react-router": "5.1.11",
+		"@types/react-router-dom": "5.1.7",
+		"@types/uuid": "^8.3.0",
+		"firebase": "^8.6.8",
+		"formik": "^2.2.9",
+		"leaflet": "^1.7.1",
+		"react": "^17.0.1",
+		"react-dom": "^17.0.1",
+		"react-leaflet": "^3.2.0",
+		"react-router": "5.2.0",
+		"react-router-dom": "5.2.0",
+		"typescript": "^4.1.2",
+		"yup": "^0.32.9",
+		"axios": "^0.21.1",
+		"uuid": "^8.3.2",
+		"react-infinite-scroll-component": "6.1.0"
+	},
+	"devDependencies": {
+		"clean-webpack-plugin": "^3.0.0",
+		"css-loader": "^5.1.0",
+		"html-webpack-plugin": "^4.5.0",
+		"ts-loader": "8.0.17",
+		"webpack": "^5.4.0",
+		"webpack-cli": "^4.1.0",
+		"webpack-dev-server": "^3.11.0",
+		"webpack-merge": "^5.2.0",
+		"dotenv-webpack": "^7.0.3",
+		"copy-webpack-plugin": "9.0.1"
+	},
+	"scripts": {
+		"start": "webpack serve --config ./config/webpack.dev.js",
+		"build": "webpack --config ./config/webpack.prod.js"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	}
+}

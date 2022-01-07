@@ -1,0 +1,47 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "reservation",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "bikeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "endDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "reservation",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "bikeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "startDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "reservation",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "startDate",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "endDate",
+          "order": "ASCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}
